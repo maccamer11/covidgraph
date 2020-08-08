@@ -1,0 +1,38 @@
+.cardcontainer {
+    margin: 50px 0;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    min-width: 900px;
+}
+
+
+.card{
+    margin: 0 2% !important;
+    text-align: center;
+    border-radius: 30px !important;
+    min-width: 250px;
+    flex: 1;
+}
+
+.cases{
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 600px) {
+   
+
+     .card{
+        max-width: 500px !important;
+        flex-direction: column ;
+        
+    } 
+}
+
